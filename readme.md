@@ -16,6 +16,11 @@ Features:
 * `xp_redo`
 * `areas`
 
+# Further ideas
+
+* Add dynamic cycle time for controller
+* cherry-pick https://github.com/minetest-mods/digtron/pull/60 if possible
+
 # Licenses
 
 * Code: MIT
