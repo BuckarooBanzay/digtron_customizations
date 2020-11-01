@@ -41,8 +41,8 @@ end
 -- total cache reset
 local function reset_cache()
   digtron_customizations.invalidate_all()
-  minetest.after(10, reset_cache)
+  minetest.after(30, reset_cache)
 end
 
 -- periodically reset protection cache
-minetest.after(10, reset_cache)
+minetest.after(30, reset_cache)
