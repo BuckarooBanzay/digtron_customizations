@@ -1,6 +1,6 @@
 local has_monitoring_mod = minetest.get_modpath("monitoring")
 
-local cache_size_metric
+local cache_size_metric = { set = function()end }
 local cache_size = 0
 
 if has_monitoring_mod then
